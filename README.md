@@ -22,11 +22,5 @@ This section focuses on Unsupervised Machine Learning, exploring how to uncover 
 - **00-Lectures**: The notebooks for the course part.
 - **01-Exercises**: Exercises designed to provide hands-on experience with unsupervised learning algorithms.
 - **02-Project**: A project section where unsupervised learning methods are applied to unearth insights from datasets.
-- **03-Instructors**: Instructor resources including lecture notes and guidance for explaining unsupervised learning topics.
+- **03-Instructors**: Instructor resources including lecture notes and guidance for explain
 
-## Getting Started
-
-To get started with the exercises and projects in this repository, clone the repo to your local machine:
-
-```bash
-git clone https://github.com/yourusername/yourrepositoryname.git
