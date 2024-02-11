@@ -1,0 +1,10 @@
+totalLength: 2
+contents:
+  - title: Introduction to Unsupervised Machine Learning
+    material: https://vimeo.com/476262171
+    contentType: video
+    learningType: lectures
+    type: content
+    length: 2
+    resources:
+      - 

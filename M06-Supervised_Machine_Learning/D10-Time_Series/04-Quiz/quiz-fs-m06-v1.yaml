@@ -1,0 +1,134 @@
+questions:
+  - title: Which of the following is not a preprocessing step?
+    answers:
+      - label: Standardisation
+      - label: Missing values imputation
+      - label: Elimination of useless columns
+      - label: Evaluation of variable importance
+        correct: true
+  - title: Which of these strategies seem most adapted to impute missing values in a dataset?
+    answers:
+      - label: Replacing missing values with 0
+      - label: Replacing missing values in each column with values that depend on non missing values in other columns
+        correct: true
+      - label: Replacing missing values by the mean of the column
+      - label: Replacing missing values by the median value of the column
+  - title: Which of these is NOT a preprocessing function from scikit-learn?
+    answers:
+      - label: "`LinearRegression`"
+        correct: true
+      - label: "`StandardScaler`"
+      - label: "`OneHotEncoder`"
+      - label: "`SimpleImputer`"
+  - title: In which case can you use a linear regression model?
+    answers:
+      - label: If the target variable is quantitative
+        correct: true
+      - label: If the target variable is categorical
+      - label: For any type of target variable
+      - label: When there is no target variable
+  - title: How can you interpret the performance metric R²?
+    answers:
+      - label: It represents the average percentage error of the model's predictions
+      - label: It represents the probability of the model to make good predictions
+      - label: It represents the percentage of information explained by the model
+        correct: true
+      - label: It represents the average prediction error of the model
+  - title: Which of these terms does not refer to a component of a model's prediction error
+    answers:
+      - label: Imprecision
+        correct: true
+      - label: Bias
+      - label: Variance
+      - label: Noise
+  - title: What can you say about the predictions of a model with a low bias and high variance?
+    answers:
+      - label: The predictions are close to the actual values of the target and the predictions do not vary quickly when the predictors vary
+      - label: The predictions are far from the actual values of the target and the predictions do not vary quickly when the predictors vary
+      - label: The predictions are close to the actual values of the target and the predictions vary quickly when the predictors vary
+        correct: true
+      - label: The predictions are far from the actual values of the target and the predictions do not vary quickly when the predictors vary
+  - title: What is the goal of regularization?
+    answers:
+      - label: To prevent the model from making illegal predictions
+      - label: To reduce both bias and variance at the same time
+      - label: To find a good balance between the bias and the variance
+        correct: true
+      - label: To measure the importance of each predictor for the model
+  - title: What is grid search?
+    answers:
+      - label: It is a process by which different versions of the same model using different hyper parameters are trained on the data to measure which version works best
+        correct: true
+      - label: It helps measure the quality of the model more precisely by training the model on K different train/test splits of the data
+      - label: It is a process trying automatically all the possible models to find the best fit for our data
+      - label: It's a chess playing AI
+  - title: What is NOT a good evaluation metric for a classification model such as the logistic regression?
+    answers:
+      - label: The accuracy
+      - label: The confusion matrix
+      - label: The R²
+        correct: true
+      - label: The Area Under the ROC Curve
+  - title: What is NOT a fondamental difference between models such as linear and logistic regressions and decision trees, random forests?
+    answers:
+      - label: The former use coefficients associated with each variables while the latter does not
+      - label: The former can only detect linear dependencies between predictors and target variables while the latter can detect non-linear dependencies
+      - label: The former are high variance low bias models while the latter are low variance high bias models
+        correct: true
+      - label: The former cannot detect joint effects for predictors while the latter can
+  - title: What is NOT a good description of the general principle of bagging
+    answers:
+      - label: It's an ensemble method aggregating models trained on sligthly different random samples taken from the original dataset
+      - label: Random samples with replacement are created from the original dataset and the same model is trained on each sample before aggregating
+      - label: Random samples without replacement are created from the original dataset and the same model is trained on each sample before aggregating
+        correct: true
+      - label: It's an ensemble method that aims at improving the bias variance balance for a given model
+  - title: In what case can you use SVM models?
+    answers:
+      - label: For regression only
+      - label: For classification only
+      - label: For both regression and classification
+        correct: true
+      - label: For unsupervised machine learning
+  - title: When using a "rbf" (radial) kernel with SVM, how do the \\(C\\) and \\(\gamma\\) hyper parameters influence the predictions?
+    answers:
+      - label: \\(C\\) is the inverse of the penalization strength, \\(\gamma\\) is the inverse of the "influence" range of each observation
+        correct: true
+      - label: \\(\gamma\\) is the inverse of the penalization strength, \\(C\\) is the inverse of the "influence" range of each observation
+      - label: \\(C\\) is the penalization strength, \\(\gamma\\) is the "influence" range of each observation
+      - label: \\(C\\) is the penalization strength, \\(\gamma\\) is the inverse of the "influence" range of each observation
+  - title: What is the difference between boosting and bagging?
+    answers:
+      - label: Bagging sequentially improves the model sequentially by focusing on the observations that were not well predicted by the model previously while boosting trains the model on random samples from the original data
+      - label: Boosting sequentially improves the model sequentially by focusing on the observations that were not well predicted by the model previously while bagging trains the model on random samples from the original data
+        correct: true
+      - label: They are two ensemble methods, bagging can be seen as a resampling method that will specifically focus on the weaknesses of the model, while boosting focuses at random on different groups of observations
+      - label: There's no difference!
+  - title: Why do we split the data between a train and a test set?
+    answers:
+      - label: The train set helps us train the model and the test set lets us evaluate the model as if it was used on previously unseen data, thus giving a trustworthy estimate of the model's performance
+        correct: true
+      - label: Many different models may be trained on the train set, the model that achieves the best train score is then evaluated on the test set to calculate is generalization power
+      - label: The model is trained on both the test set and the train set and the two performance scores obtain give us the performance range we can expect from the model on unseen data
+      - label: This technique is useful to compare models and find out the best hyperparemeters for each model
+  - title: Why do we use cross validation in combination with grid search to find out the best hyper parameters for a given model?
+    answers:
+      - label: Cross validation helps the grid search run faster
+      - label: Cross validation gives us a more accurate measure of the generalization performance of each version of the model
+        correct: true
+      - label: It is impossible to run grid search without cross validation
+      - label: You should never ever use cross validation with grid search as it may cause a leak that would corrupt all our performance scores
+  - title: What's a stationary time series?
+    answers:
+      - label: A time series with no trend
+      - label: A time series with a constant trend
+      - label: A times series with constant trend, variance and autocorrelations over time
+      - label: A time series with constant mean, variance and autocorrelations over time
+        correct: true
+  - title: What did you think of this quiz?
+    bonus: true
+    answers:
+      - label: I'm out of here, is the bus still running?
+      - label: At first I was afraid, I was petrified
+      - label: It's simply the best, better than all the rest
+      - label: Another one bites the dust

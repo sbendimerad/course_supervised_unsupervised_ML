@@ -1,0 +1,18 @@
+children:
+  - content: 01-Regularization_Ridge_vs_Lasso.ipynb
+    duration: 120
+    resources: null
+    slug: regularization-ridge-vs-lasso-pt
+    title: "Regularization Ridge \U0001F309"
+    type: exercice
+  - content: 02-Handling_overfitting.ipynb
+    duration: 20
+    resources: null
+    slug: handling-overfitting-pt
+    title: "Handling Overfitting \U0001F9BE\U0001F9BE"
+    type: exercice
+duration: 1 day
+kind: course
+replay: https://vimeo.com/653633594
+slug: regularization-and-hyperparameter-optimization-exercises-pt
+title: Regularization and Hyperparameter Optimization

@@ -1,0 +1,26 @@
+children:
+  - content: 01-Regularization.ipynb
+    duration: 40
+    resources: null
+    slug: regularization-pt
+    title: "Regularization \U0001F46E"
+    type: lecture
+  - content: 02-Cross_validation_and_grid_search.ipynb
+    duration: 40
+    resources: null
+    slug: cross-validation-and-grid-search-pt
+    title: "Cross validation and grid search \U0001F6B8"
+    type: lecture
+  - content: 03-Regularization_and_hyperparameter_optimization_template.ipynb
+    duration: 60
+    resources:
+      - target: Data.csv
+        title: Data.csv
+    slug: regularization-and-hyperparameter-optimization-template-pt
+    title: "Regularization and hyperparameter optimization template \U0001F9EC"
+    type: lecture
+duration: 1 day
+kind: course
+replay: https://vimeo.com/653633594
+slug: regularization-and-hyperparameter-optimization-course-pt
+title: Regularization and Hyperparameter Optimization

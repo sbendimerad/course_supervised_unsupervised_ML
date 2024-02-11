@@ -1,0 +1,52 @@
+children:
+  - duration: 20
+    content: 01-Decision_trees.ipynb
+    resources: null
+    slug: decision-trees-pt
+    title: "Decision trees \U0001F332"
+    type: lecture
+  - duration: 20
+    content: 02-Random_forest.ipynb
+    resources: null
+    slug: random-forest-pt
+    title: "Random forest \U0001F332\U0001F332\U0001F332"
+    type: lecture
+  - duration: 20
+    content: 03-Decision_trees_Random_forest_template.ipynb
+    resources:
+      - target: Data.csv
+        title: Data.csv
+    slug: decision-trees-random-forest-template-pt
+    title: "Decision trees Random forest template \U0001F381"
+    type: lecture
+  - duration: 00
+    content: 04-OPTIONAL_Summary_decision_trees.ipynb
+    resources: null
+    slug: summary-decision-trees-pt
+    title: "OPTIONAL - Summary decision trees \U0001F4DC"
+    type: lecture
+  - duration: 00
+    content: 05-OPTIONAL_Summary_random_forest.ipynb
+    resources: null
+    slug: summary-random-forest-pt
+    title: "OPTIONAL - Summary random forest \U0001F4DC"
+    type: lecture
+  - duration: 90
+    content: 01-Create_a_decision_tree.ipynb
+    resources:
+      - target: bl.txt
+        title: bl.txt
+    slug: create-a-decision-tree-pt
+    title: "Create a decision tree \U0001F333"
+    type: exercice
+  - duration: 00
+    content: 02-Uber_fares.ipynb
+    resources: null
+    slug: uber-fares-pt
+    title: "Uber Fares \U0001F9BE\U0001F9BE"
+    type: exercice
+duration: 1 day
+kind: course
+replay: https://vimeo.com/653623657
+slug: decision-trees-and-random-forest-pt
+title: Decision Trees and Random Forest

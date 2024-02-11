@@ -1,0 +1,26 @@
+children:
+  - content: 01-Understand_DBSCAN.ipynb
+    duration: 45
+    resources: null
+    slug: understand-dbscan-pt
+    title: Understand DBSCAN
+    type: lecture
+  - content: 02-Code_DBSCAN.ipynb
+    duration: 30
+    resources: null
+    slug: code-dbscan-pt
+    title: Code DBSCAN
+    type: lecture
+  - content: 01-911_emergencies.ipynb
+    duration: 45
+    resources:
+      - target: customers.csv
+        title: customers.csv
+    slug: 911-emergencies-pt
+    title: 911 emergencies
+    type: exercice
+duration: 1 day
+kind: course
+replay: https://vimeo.com/653635446
+slug: dbscan-pt
+title: DBSCAN

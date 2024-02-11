@@ -1,0 +1,78 @@
+questions:
+  - title: What is not a valid objective for unsupervised ML?
+    answers:
+      - label: Finding structure in the data
+      - label: Bringing observations into coherent groups
+      - label: Summarizing the information contained in the data
+      - label: Classifying observations according to a target variable
+        correct: true
+  - title: What is the inertia measured to evaluate the clustering quality?
+    answers:
+      - label: It is the sum of the square distances between each observation and the center of the cluster they belong to
+        correct: true
+      - label: It is the sum of the distances between each observation and the center of the cluster they belong to
+      - label: It is the sum of the square distances between the cluster centers and the global center of the dataset
+      - label: It is the sum of the distances between the cluster
+  - title: What is the silhouette measure for one observation
+    answers:
+      - label: It is the sum of the distance between the observation and its cluster center and the distance between the observation and the closest other cluster center
+      - label: It is the difference between the distance between the observation and its cluster center and the distance between the observation and the closest other cluster center
+      - label: It is the difference between the distance between the observation and the closest other cluster center and the distance between the observation and its cluster center
+      - label: It is the difference between the distance between the observation and its cluster center and the distance between the observation and the enveloppe of the closest other cluster
+        correct: true
+  - title: What is NOT an advantage of DBSCAN over Kmeans?
+    answers:
+      - label: DBSCAN does not need to know the number of clusters in advance
+      - label: DBSCAN is able to determine clusters of arbitrary shape
+      - label: DBSCAN may be used given any type and any number of variables
+        correct: true
+      - label: DBSCAN is resistent to outliers, it won't include them in any cluster
+  - title: What is NOT an appropriate description of how PCA forms its principal components?
+    answers:
+      - label: It finds the combination of variables that capture the most variance for the data
+      - label: It finds the eigenvectors of the correlation matrix
+        correct: true
+      - label: It finds the eigenvectors of the variance covariance matrix
+      - label: It runs singular value decomposition and one of the resulting matrices helps you find the principal components
+  - title: What is NOT a proper use of PCA?
+    answers:
+      - label: Summarizing the information in the data to accurately visualize the observations in a 2 or 3 dimensionnal space
+      - label: Produce new features that contain more information on a given target variable
+        correct: true
+      - label: Denoise data in order to run better subsequent analysis, Supervised ML for instance
+      - label: Reduce the number of features in order to reduce computing time for subsequent tasks such as supervised ML
+  - title: What does NOT make language a very specific type of data?
+    answers:
+      - label: It is reprensented by character strings
+        correct: true
+      - label: It may be ambiguous
+      - label: The same information may be represented by many different sentences
+      - label: It contains sequential information (the order of the words is important)
+  - title: Why is'nt the Term frequency a good enough metric to describe the importance of words in a text?
+    answers:
+      - label: It will only advantage words that are really common
+      - label: It will disadvantage words that are present in every text
+      - label: It will advantage words that have high frequency in a text regardless of the number of other texts where it is also present
+        correct: true
+      - label: It will only advantage the words that are present in many different texts
+  - title: What essential part of the text information do you lose when running TfIdf transformation to transform each text into a vector measuring the importance of each word in the vocabulary in that given text?
+    answers:
+      - label: You lose the vocabulary richness of the texts
+      - label: You lose the sequential aspect of the data
+        correct: true
+      - label: You lose the general theme of the text
+      - label: You lose the common words of the text
+  - title: How can you run clustering on the texts once you're done with topic modeling?
+    answers:
+      - label: You can run Kmeans on the new dataset containing the topic variables
+        correct: true
+      - label: You can run DBSCAN on the new dataset containing the topic variables
+      - label: You can simply look for the topic variable with the highest (absolute) value for each text
+      - label: Topic modeling is already a clustering method, no extra effort is needed
+  - title: How well do you think you did during this test?
+    bonus: true
+    answers:
+      - label: :D
+      - label: :'(
+      - label: XO
+      - label: o_O

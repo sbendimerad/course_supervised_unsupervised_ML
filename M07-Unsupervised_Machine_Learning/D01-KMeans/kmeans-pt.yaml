@@ -1,0 +1,32 @@
+children:
+  - content: 01-Understand_KMeans.ipynb
+    duration: 45
+    resources: null
+    slug: understand-kmeans-pt
+    title: Understand KMeans
+    type: lecture
+  - content: 02-Code_KMeans.ipynb
+    duration: 45
+    resources: null
+    slug: code-kmeans-pt
+    title: Code KMeans
+    type: lecture
+  - content: 01-Know_your_customers.ipynb
+    duration: 30
+    resources:
+      - target: Mall_Customers.csv
+        title: Mall_Customers.csv
+    slug: know-your-customers-pt
+    title: Know your customers
+    type: exercice
+  - content: 02-Digit_Recognition_KMeans.ipynb
+    duration: 30
+    resources: null
+    slug: digit-recognition-kmeans-pt
+    title: Digit Recognition KMeans
+    type: exercice
+duration: 1 day
+kind: course
+replay: https://vimeo.com/653634970
+slug: kmeans-pt
+title: KMeans

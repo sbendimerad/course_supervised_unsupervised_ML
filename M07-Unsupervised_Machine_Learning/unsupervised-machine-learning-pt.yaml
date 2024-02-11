@@ -1,0 +1,13 @@
+children:
+  - introduction-to-unsupervised-machine-learning-pt
+  - kmeans-pt
+  - dbscan-pt
+  - dimensionality-reduction-pca-pt
+  - natural-language-processing-for-unsupervised-learning-pt
+  - topic-modeling-pt
+  - projects-unsupervised-machine-learning-pt
+duration: 6 days
+kind: track
+slug: unsupervised-machine-learning-pt
+title: Unsupervised Machine Learning
+halfDays: 6

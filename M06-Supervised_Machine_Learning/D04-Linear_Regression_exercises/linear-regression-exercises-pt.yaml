@@ -1,0 +1,22 @@
+children:
+  - content: 01-Californian_Housing_Market.ipynb
+    duration: 60
+    resources:
+      - target: california_housing_description.txt
+        title: california_housing_description.txt
+    slug: californian-housing-market-pt
+    title: "Californian Housing Market \U0001F3E1"
+    type: exercice
+  - content: 02-Feature_engineering_and_feature_selection.ipynb
+    duration: 60
+    resources:
+      - target: california_housing_description.txt
+        title: california_housing_description.txt
+    slug: feature-engineering-and-feature-selection-pt
+    title: "Feature engineering and Feature Selection \U0001F9BE\U0001F9BE"
+    type: exercice
+duration: 1 day
+kind: course
+replay: https://vimeo.com/653622999
+slug: linear-regression-exercises-pt
+title: Linear Regression

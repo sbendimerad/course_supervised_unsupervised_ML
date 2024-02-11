@@ -1,0 +1,15 @@
+children:
+  - content: "476262171"
+    duration: 2
+    resources: null
+    slug: introduction-to-unsupervised-machine-learning-video-pt
+    title: Introduction to Unsupervised Machine Learning
+    type: video
+description: null
+duration: 1 day
+goals: null
+introductionVideoId: null
+kind: course
+slug: introduction-to-unsupervised-machine-learning-pt
+title: Introduction to Unsupervised Machine Learning
+isWorkingDay: false

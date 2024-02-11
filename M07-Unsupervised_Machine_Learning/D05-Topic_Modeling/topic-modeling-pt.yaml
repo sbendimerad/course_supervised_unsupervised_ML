@@ -1,0 +1,30 @@
+children:
+  - content: 01-Understand_LSA.ipynb
+    duration: 60
+    resources: null
+    slug: understand-lsa-pt
+    title: Understand LSA
+    type: lecture
+  - content: 02-Code_LSA.ipynb
+    duration: 30
+    resources: null
+    slug: code-lsa-pt
+    title: Code LSA
+    type: lecture
+  - content: 01-Topic_modeling.ipynb
+    duration: 60
+    resources: null
+    slug: topic-modeling-content-pt
+    title: Topic modeling
+    type: exercice
+  - content: quiz-fs-m07-v1.yaml
+    duration: 15
+    resources: null
+    slug: quiz-fs-m07-v1
+    title: "Quiz challenge: test your knowledge!"
+    type: quiz
+duration: 1 day
+kind: course
+replay: https://vimeo.com/653635804
+slug: topic-modeling-pt
+title: Topic Modeling

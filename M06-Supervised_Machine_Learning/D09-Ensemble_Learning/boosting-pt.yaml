@@ -1,0 +1,42 @@
+children:
+  - duration: 30
+    content: 01-What_is_boosting.ipynb
+    resources: null
+    slug: what-is-boosting-pt
+    title: "What is boosting \U0001F964"
+    type: lecture
+  - duration: 00
+    content: 02-Optional_Voting_classifier_and_stacking.ipynb
+    resources: null
+    slug: voting-classifier-and-stacking-pt
+    title: "OPTIONAL - Voting classifier and stacking \U0001F5F3\uFE0F"
+    type: lecture
+  - duration: 00
+    content: 03-Summary_of_boosting.ipynb
+    resources: null
+    slug: summary-of-boosting-pt
+    title: "OPTIONAL - Summary of boosting \U0001F4DC"
+    type: lecture
+  - duration: 40
+    content: 04-Ensemble_methods_template.ipynb
+    resources: null
+    slug: ensemble-methods-template-pt
+    title: "Ensemble Methods Template \U0001F9D1\u200D\U0001F91D\u200D\U0001F9D1"
+    type: lecture
+  - duration: 80
+    content: 01-Ensemble_methods_Titanic.ipynb
+    resources: null
+    slug: ensemble-methods-titanic-pt
+    title: "Ensemble Methods on Titanic \U0001F6A2"
+    type: exercice
+  - duration: 00
+    content: 02-OPTIONAL_Ensemble_methods_AirBnB.ipynb
+    resources: null
+    slug: ensemble-methods-airbnb-pt
+    title: "OPTIONAL - Ensemble Methods AirBnB \U0001F9BE\U0001F9BE"
+    type: exercice
+duration: 1 day
+kind: course
+replay: https://vimeo.com/653624212
+slug: boosting-pt
+title: Ensemble Learning

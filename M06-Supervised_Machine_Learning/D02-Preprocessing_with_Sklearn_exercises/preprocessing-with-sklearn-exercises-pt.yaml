@@ -1,0 +1,25 @@
+children:
+  - content: 01-Preprocessing_Titanic.ipynb
+    duration: 150
+    resources:
+      - target: titanic.csv
+        title: titanic.csv
+    slug: preprocessing-titanic-pt
+    title: "Preprocessing Titanic \U0001F6E5\uFE0F"
+    type: exercice
+    solution: 01-Preprocessing_Titanic_solutions.ipynb
+  - content: 02-Advanced_preprocessing.ipynb
+    duration: 100
+    resources:
+      - target: titanic.csv
+        title: titanic.csv
+    slug: advanced-preprocessing-pt
+    title: "Advanced Preprocessing \U0001F9BE\U0001F9BE"
+    type: exercice
+    solution: 02-Advanced_preprocessing_solutions.ipynb
+description: null
+duration: 1 day
+kind: course
+replay: https://vimeo.com/653628388
+slug: preprocessing-with-sklearn-exercises-pt
+title: Preprocessing with Sklearn

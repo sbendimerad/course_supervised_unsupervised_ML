@@ -1,0 +1,18 @@
+children:
+  - introduction-to-supervised-machine-learning-pt
+  - preprocessing-with-sklearn-course-pt
+  - preprocessing-with-sklearn-exercises-pt
+  - linear-regression-course-pt
+  - linear-regression-exercises-pt
+  - regularization-and-hyperparameter-optimization-course-pt
+  - regularization-and-hyperparameter-optimization-exercises-pt
+  - logistic-regression-course-pt
+  - decision-trees-and-random-forest-pt
+  - boosting-pt
+  - time-series-pt
+  - projects-supervised-machine-learning-pt
+duration: 10 days
+kind: track
+slug: supervised-machine-learning-pt
+title: Supervised Machine Learning
+halfDays: 11

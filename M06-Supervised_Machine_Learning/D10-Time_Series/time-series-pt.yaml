@@ -1,0 +1,36 @@
+children:
+  - content: 01-Times_Series.ipynb
+    duration: 30
+    resources: null
+    slug: times-series-pt
+    title: "Times Series \U0001F570\uFE0F"
+    type: lecture
+  - content: 02-Time_Series_with_Prophet.ipynb
+    duration: 40
+    resources: null
+    slug: time-series-with-prophet-pt
+    title: "Time Series with Prophet \U0001F9B8\u200D\u2640\uFE0F"
+    type: lecture
+  - content: 01-Prophet_exercise.ipynb
+    duration: 60
+    resources: null
+    slug: prophet-exercise-pt
+    title: "Prophet exercise \U0001F936"
+    type: exercice
+  - content: 02-Netflix_vs_covid.ipynb
+    duration: 60
+    resources: null
+    slug: netflix-vs-covid-pt
+    title: "Netflix VS Covid \U0001F9A0"
+    type: exercice
+  - content: quiz-fs-m06-v1.yaml
+    duration: 15
+    resources: null
+    slug: quiz-fs-m06-v1
+    title: "Quiz challenge: test your knowledge! \u2753"
+    type: quiz
+duration: 1 day
+kind: course
+replay: https://vimeo.com/653625942
+slug: time-series-pt
+title: Time Series

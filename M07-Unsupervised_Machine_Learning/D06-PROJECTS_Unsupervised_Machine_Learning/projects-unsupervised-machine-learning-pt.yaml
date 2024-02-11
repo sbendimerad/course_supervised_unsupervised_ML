@@ -1,0 +1,18 @@
+children:
+- content: 01-Uber_Pickups.ipynb
+  duration: 30
+  resources: null
+  slug: uber-pickups-pt
+  title: Uber Pickups
+  type: project
+- content: 02-The_North_Face_ecommerce.ipynb
+  duration: 30
+  resources: null
+  slug: the-north-face-ecommerce-pt
+  title: The North Face ecommerce
+  type: project
+description: null
+duration: 1 day
+kind: course
+slug: projects-unsupervised-machine-learning-pt
+title: PROJECTS Unsupervised Machine Learning

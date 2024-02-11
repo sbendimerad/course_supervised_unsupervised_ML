@@ -1,0 +1,30 @@
+children:
+- content: 01-Walmart_sales.ipynb
+  duration: 30
+  resources:
+  - target: Walmart_Store_sales.csv
+    title: Walmart_Store_sales.csv
+  - target: conversion_data_test.csv
+    title: conversion_data_test.csv
+  - target: conversion_data_train.csv
+    title: conversion_data_train.csv
+  slug: walmart-sales-pt
+  title: Walmart sales
+  type: project
+- content: 02-Conversion_rate_challenge.ipynb
+  duration: 30
+  resources: null
+  slug: conversion-rate-challenge-pt
+  title: Conversion rate challenge
+  type: project
+- content: 02-Conversion_rate_challenge_template.ipynb
+  duration: 30
+  resources: null
+  slug: conversion-rate-challenge-template-pt
+  title: Conversion rate challenge template
+  type: project
+description: null
+duration: 1 day
+kind: course
+slug: projects-supervised-machine-learning-pt
+title: PROJECTS Supervised Machine Learning

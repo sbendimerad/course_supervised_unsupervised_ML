@@ -1,0 +1,15 @@
+children:
+  - content: "476261703"
+    duration: 7
+    resources: null
+    slug: introduction-to-supervised-machine-learning-video-pt
+    title: "Introduction to Supervised Machine Learning \U0001F3A5"
+    type: video
+description: null
+duration: 1 day
+goals: null
+introductionVideoId: null
+kind: course
+slug: introduction-to-supervised-machine-learning-pt
+title: Introduction to Supervised Machine Learning
+isWorkingDay: false

@@ -1,0 +1,26 @@
+children:
+  - content: 01-Introduction.ipynb
+    duration: 30
+    resources: null
+    slug: introduction-pt
+    title: "Introduction to Machine Learning \U0001F9BE"
+    type: lecture
+  - content: 02-What_is_preprocessing.ipynb
+    duration: 45
+    resources: null
+    slug: what-is-preprocessing-pt
+    title: "What is preprocessing? \U0001F9D1\u200D\U0001F373"
+    type: lecture
+  - content: 03-Preprocessing_with_sklearn.ipynb
+    duration: 60
+    resources:
+      - target: Dataset_preprocessing.csv
+        title: Dataset_preprocessing.csv
+    slug: preprocessing-with-sklearn-pt
+    title: "Preprocessing with sklearn \U0001F4BB"
+    type: lecture
+duration: 1 day
+kind: course
+replay: https://vimeo.com/653628388
+slug: preprocessing-with-sklearn-course-pt
+title: Preprocessing with Sklearn

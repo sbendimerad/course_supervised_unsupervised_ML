@@ -1,0 +1,30 @@
+children:
+  - content: 01-Understand_PCA.ipynb
+    duration: 60
+    resources: null
+    slug: understand-pca-pt
+    title: Understand PCA
+    type: lecture
+  - content: 02-Code_PCA.ipynb
+    duration: 30
+    resources: null
+    slug: code-pca-pt
+    title: Code PCA
+    type: lecture
+  - content: 01-House_prices_reduction.ipynb
+    duration: 30
+    resources: null
+    slug: house-prices-reduction-pt
+    title: House prices reduction
+    type: exercice
+  - content: 02-Noise_cancellation.ipynb
+    duration: 30
+    resources: null
+    slug: noise-cancellation-pt
+    title: Noise cancellation
+    type: exercice
+duration: 1 day
+kind: course
+replay: https://vimeo.com/653636157
+slug: dimensionality-reduction-pca-pt
+title: Dimensionality Reduction PCA
